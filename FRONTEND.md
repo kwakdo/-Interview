@@ -5,8 +5,8 @@
 - 번들이 거대해지는 것을 방지하기 위해 번들은 나눈다 ,Webpack, Rollup, Browserify 번들러 지원 기능
 
 ## React 구현 방법, 어떻게 적용했는지
- - 바벨
- - 웹팩
+ - 바벨: ES6를 ES5로 바꿔주는 모듈 번들러
+ - 웹팩: 자원들을 하나의 파일로 병합 및 압축 해주는 모듈 번들러
 
 ## 함수형 컴포넌트
 - JSX 를 Return문을 사용해서 반환
@@ -21,5 +21,5 @@
 - 라이프 사이클 : 마운트 / 업데이트/ 언마운트
 - 상태값을 가질 수 있고, 생명주기 함수를 작성할 수 있다.
 
-##Restful Service
+## Restful Service
 - HTTP URL을 통해 자원을 명시하고 HTTP Method (POST, GET, PUT, DELETE)를 통해 해당 자원에 대한 CRUD를 적용하는 것
