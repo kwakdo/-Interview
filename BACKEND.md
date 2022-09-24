@@ -103,8 +103,14 @@
 ## Call by reference와 Call by value 비교 설명
 ## Array와 List(ArrayList LinkedList) 차이점
 ## 인기 있는 Web 개발 framework, JavaScript framework(React, Vue 등…)
+
 ## SSR(Server Side Rendering), CSR(Client Side Rendering) 차이점
+- SSR: 서버 쪽에서 렌더링 준비를 끝마친 상태로 클라이언트에 전달
+- CSR: 클라이언트 쪽에서 렌더링이 발생
+- 
 ## MSA(Micro Service Architecture) 개념
+작은 서비스 여러개가 모여서 하나의 시스템을 제공하는 아키텍처
+
 ## 프레임워크랑 라이브러리 차이
 ## 프레임워크 장점
 ## 스프링 프레임워크 특징이나 기능 아는대로 설명
