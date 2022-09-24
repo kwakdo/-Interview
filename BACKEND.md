@@ -89,6 +89,17 @@
  - 프로세스들의 통신 시간, 방법 어려움 해소## 동기/비동기 차이점
  
 ## Queue와 Stack의 차이점과 응용 사례
+
+### Stack 
+- 같은 구조와 크기의 자료를 정해진 방향으로만 쌓을수 있고, top으로 정한 곳을 통해서만 접근할 수 있다.
+- 삽입하는 연산 'push' , 삭제하는 연산 'pop'
+- LIPO last in first out , 후입선출
+- ex) 웹브라우저의 뒤로가기, 역순 문자배열, 후위표기법검사
+ 
+### Queue
+- FIFO first in first out, 선입선출 방식의 자료구조
+- ex) 은행업무, 콜센터대기시간, 캐시구현
+
 ## Call by reference와 Call by value 비교 설명
 ## Array와 List(ArrayList LinkedList) 차이점
 ## 인기 있는 Web 개발 framework, JavaScript framework(React, Vue 등…)
