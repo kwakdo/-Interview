@@ -22,4 +22,28 @@
 - 상태값을 가질 수 있고, 생명주기 함수를 작성할 수 있다.
 
 ## Restful Service
-- HTTP URL을 통해 자원을 명시하고 HTTP Method (POST, GET, PUT, DELETE)를 통해 해당 자원에 대한 CRUD를 적용하는 것
+	- HTTP URL을 통해 자원을 명시하고 HTTP Method (POST, GET, PUT, DELETE)를 통해 해당 자원에 대한 CRUD를 적용하는 것
+	- Client에서 바로 객체로 치환 가능한 형태의 데이터 통신 / 클라이언트와 서버를 연결해주는 개념
+￼
+## 상태관리 라이브러리 사용했는지
+ 1) 리덕스 - 하나의 store에서 객체를 가져다 쓴다 (복잡함)
+ 2) context api - state가 변경되지 않은 부분도 리렌더링이 일어난다
+ 3) recoil - stater가 변경된 곳만 리렌더링이 일어난다
+ 
+## jwt 왜 사용했는지
+사용자 정보 보안
+
+## session 어떻게 저장했는지 
+localstorege에 넣었다.
+
+## 쿠키와 localstorege의 차이
+
+## 프로젝트 UI 화면 왜 그렇게 설계했는지
+
+## 왜 MUI 사용했는지
+
+## hash 라우터 왜 사용했는지
+
+## webpack babel 에서 target 이 뭔지 
+
+## var, let, const
