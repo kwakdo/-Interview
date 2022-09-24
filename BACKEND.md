@@ -1,9 +1,9 @@
 
-### Spring Framework
+## Spring Framework
 자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크
 동적인 웹 사이트를 개발하기 위한 여러가지 서비스를 제공하고 있다.
 
-### Spring Boot
+## Spring Boot
 스프링 프레임워크를 사용하기 위한 설정의 많은 부분을 자동화 하여 사용자가 편하게 스프링을 활용 할 수 있도록 돕는다.
 스프링 부트 starter 디펜더시만 추가하면 바로 API를 정의하고, 내장된 톰캣이나 제티로 웹 애플리케이션 서버를 실행할 수 있다.
  1) Tomcat이 내부에 포함되어 있다(설치 및 버전 관리 필요 X)
@@ -11,18 +11,18 @@
  3) XML 설정을 하지 않아도 된다
  4) jar 파일을 이용해 자바 옵션만으로 쉽게 배포 가능
 
-## POJO Plain Old JAVA Object
+## POJO (Plain Old JAVA Object)
  1) 스프링은 내부적으로 별도의 API를 사용하지 않고, 일반적인 Java 코드를 이용하여 객체를 구성하는 방식
  2) 종속하지 않는다
-## IOC Inversion of Control
+## IOC (Inversion of Control)
  1) 제어의 역전
  2) 프레임워크 라이프 사이클을 관리 / 빈의 생성부터 소멸까지 모든 생명주기를 관리
  3) IOC 컨테이너는 객체의 생성, 초기화, 서비스 소멸에 관한 모든 권한을 가지면서 객체의 생명주기를 관리
-## AOP Aspect Oriented Progarmming > OOP
+## AOP (Aspect Oriented Progarmming > OOP)
  1) 관점지향프로그래밍 
  2) 반복되는 코드를 모아서 필요한 시기에 적절하게 적용
  3) 중복되는 코드 제거, 유지 보수성 향상
-## DI Dependency Injection
+## DI (Dependency Injection)
  1) 의존성 주입
  2) 특정 객체가 필요하다면 객체를 외부에서 가져다가 주입하는 방식
  3) 클래스 객체를 개발자가 코드에서 생성하지 않고 프레임워크가 생성하여 사용하는 방법
@@ -65,10 +65,15 @@
 ## 알고 있는 자료구조 알고리즘
  스택, 큐, 트리, 배열, 리스트, 그래프 
 
+## Overloading과 Overriding의 차이점
+
+## Overloading
+두 메서드가 같은 이름을 갖고 있으나 인자의 수나 자료형이 다른 경우
+
+## Overriding
 
 
 
-- Overloading과 Overriding의 차이점
 - Process와 Thread의 차이점
 - 동기/비동기 차이점
 - Queue와 Stack의 차이점과 응용 사례
