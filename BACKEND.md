@@ -65,11 +65,12 @@
 ## 알고 있는 자료구조 알고리즘
  스택, 큐, 트리, 배열, 리스트, 그래프 
 
-## Overloading
+## Overloading과 Overriding의 차이점
+Overloading
 - 확장
 - 메서드의 이름은 같고 매개변수의 갯수나 타입이 다른 함수를 정의하는 것을 의미
 
-## Overriding
+Overriding
 - 재정의
 - 메서드의 이름은 물론 파라메터의 갯수나 타입도 동일해야 하며, 주로 상위 클래스의 동작을 상속받은 하위 클래스에서 변경하기 위해 사용
 
@@ -83,7 +84,7 @@ Thread
  - 프로세스의 생성 및 소멸에 따른 오버헤드 감소
  - 빠른 컨텍스트 스위칭
  - 프로세스들의 통신 시간, 방법 어려움 해소## 동기/비동기 차이점
- - 
+ 
 ## Queue와 Stack의 차이점과 응용 사례
 ## Call by reference와 Call by value 비교 설명
 ## Array와 List(ArrayList LinkedList) 차이점
