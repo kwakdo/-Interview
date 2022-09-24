@@ -66,40 +66,34 @@
  스택, 큐, 트리, 배열, 리스트, 그래프 
 
 ## Overloading과 Overriding의 차이점
-
-## Overloading
-두 메서드가 같은 이름을 갖고 있으나 인자의 수나 자료형이 다른 경우
-
-## Overriding
-
-
-
-- Process와 Thread의 차이점
-- 동기/비동기 차이점
-- Queue와 Stack의 차이점과 응용 사례
-- Call by reference와 Call by value 비교 설명
-- Array와 List(ArrayList LinkedList) 차이점
-- 인기 있는 Web 개발 framework, JavaScript framework(React, Vue 등…)
-- SSR(Server Side Rendering), CSR(Client Side Rendering) 차이점
-- MSA(Micro Service Architecture) 개념
-- 프레임워크랑 라이브러리 차이
-- 프레임워크 장점
-- 스프링 프레임워크 특징이나 기능 아는대로 설명
-- ORM이 뭔지? JPA 설명
-- jpa 장단점
-- 대용량데이터 사용시 jpa에서 특정데이터만 가져올때 기본 함수에 원하는 명령어가 없을때 어떻게 해야하는지
-- 왜 Node.js를 사용했는지
-- NODE.JS의 장점과 단점
-- Soket의 작동 원리
-- 프로젝트에서 DB 연결과정
-- 세션과 쿠키 차이점
-- Http 프로토콜에 대해 아는지
-- 클라이언트와 서버가 무엇인가
-- stomp 와 soket.io 차이점이 뭔지와 어떤게 더 편했는지
+- Overloading
+  확장
+  메서드의 이름은 같고 매개변수의 갯수나 타입이 다른 함수를 정의하는 것을 의미
+- Overriding
+  재정의
+  메서드의 이름은 물론 파라메터의 갯수나 타입도 동일해야 하며, 주로 상위 클래스의 동작을 상속받은 하위 클래스에서 변경하기 위해 사용
 
 
 
-
-
-
-
+## Process와 Thread의 차이점
+## 동기/비동기 차이점
+## Queue와 Stack의 차이점과 응용 사례
+## Call by reference와 Call by value 비교 설명
+## Array와 List(ArrayList LinkedList) 차이점
+## 인기 있는 Web 개발 framework, JavaScript framework(React, Vue 등…)
+## SSR(Server Side Rendering), CSR(Client Side Rendering) 차이점
+## MSA(Micro Service Architecture) 개념
+## 프레임워크랑 라이브러리 차이
+## 프레임워크 장점
+## 스프링 프레임워크 특징이나 기능 아는대로 설명
+## ORM이 뭔지? JPA 설명
+## jpa 장단점
+## 대용량데이터 사용시 jpa에서 특정데이터만 가져올때 기본 함수에 원하는 명령어가 없을때 어떻게 해야하는지
+## 왜 Node.js를 사용했는지
+## NODE.JS의 장점과 단점
+## Soket의 작동 원리
+## 프로젝트에서 DB 연결과정
+## 세션과 쿠키 차이점
+## Http 프로토콜에 대해 아는지
+## 클라이언트와 서버가 무엇인가
+## stomp 와 soket.io 차이점이 뭔지와 어떤게 더 편했는지
