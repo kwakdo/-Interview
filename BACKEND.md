@@ -80,7 +80,7 @@
 ### Process
  - 운영체제로부터 CPU를 할당받고 프로그램이 실행되고 있는 상태.
  - 실행중인 프로그램
- - 
+
 ### Thread   
  - 프로세스 내에서 실행되는 흐름의 단위
  - 프로세스보다 크기가 작은 실행 단위 필요
@@ -101,7 +101,35 @@
 - ex) 은행업무, 콜센터대기시간, 캐시구현
 
 ## Call by reference와 Call by value 비교 설명
+
+### Call by reference(참조에 의한 호출)
+- 장점 : 복사하지 않고 직접 참조를 하므로 빠르다.
+- 단점 : 직접 참조를 하기 때문에 원래 값이 영향을 받는다.
+
+### Call by value(값에 의한 호출)
+- 장점 : 복사하여 처리하기 때문에 안전하다. 원래의 값이 보존된다.
+- 단점 : 직접 참조를 하기 때문에 메모리가 사용량이 늘어난다.
+
 ## Array와 List(ArrayList LinkedList) 차이점
+
+### Array
+  - 인덱스가 존재
+  - 객체 생성 시 크기 할당 필수
+  - length
+ 
+### List
+ - 인덱스가 없음, 삭제된 자리에 새로운 요소가 추가 될 수 있음
+ - 크기 할당 필요없음
+ - 메모리 할당이 더 크다
+ - size
+
+### ArrayList
+  - 인덱스가 존재하고, 크기 할당이 필요 없다
+ 
+ ### Linked List
+ - 노드들의 모임 노드와 노드를 연결하는 방식
+ - 데이터의 추가/삭제가 많은 경우 연결 리스트를 사용
+
 ## 인기 있는 Web 개발 framework, JavaScript framework(React, Vue 등…)
 
 ## SSR(Server Side Rendering), CSR(Client Side Rendering) 차이점
